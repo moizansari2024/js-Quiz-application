@@ -15,7 +15,7 @@
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background: linear-gradient(135deg, hsl(238, 100%, 70%) 0%, hsl(280, 100%, 85%) 50%, hsl(225, 100%, 97%) 100%);
-                        
+
             min-height: 100vh;
             padding: 20px;
             display: flex;
@@ -247,7 +247,7 @@
             font-size: 3rem;
             font-weight: bold;
             color: hsl(238, 100%, 70%);
-            margin: 24px 0;
+            margin: 20px 0;
         }
 
         .result-message {
@@ -412,8 +412,8 @@
         <!-- Results Screen -->
         <div id="results-screen" class="quiz-card fade-in hidden">
             <div class="results-container">
-                <img src="https://images.unsplash.com/photo-1529119368496-2dfda6ec2804?w=600&h=200&fit=crop&crop=center"
-                    alt="Quiz Complete" class="complete-image">
+                <!-- <img src="https://images.unsplash.com/photo-1529119368496-2dfda6ec2804?w=600&h=200&fit=crop&crop=center"
+                    alt="Quiz Complete" class="complete-image"> -->
                 <h1>Quiz Completed!</h1>
                 <div class="score-display" id="final-score">0/10</div>
                 <div class="result-message" id="result-message">Great job!</div>
@@ -444,51 +444,71 @@
                 question: "When did Pakistan gain independence?",
                 options: ["14th August 1947", "15th August 1947", "23rd March 1940", "14th August 1948"],
                 correctAnswer: "14th August 1947",
+                explanation: "Pakistan gained independence from British rule on 14th August 1947."
             },
             {
                 question: "Who was the founder of Pakistan?",
                 options: ["Allama Iqbal", "Liaquat Ali Khan", "Quaid-e-Azam", "Zulfikar Ali Bhutto"],
                 correctAnswer: "Quaid-e-Azam",
+                explanation: "Muhammad Ali Jinnah, also known as Quaid-e-Azam, is recognized as the founder of Pakistan."
+
             },
             {
                 question: "What is the national language of Pakistan?",
                 options: ["Punjabi", "Sindhi", "English", "Urdu"],
                 correctAnswer: "Urdu",
+                explanation: "Although many languages are spoken in Pakistan, Urdu is the national language."
+
             },
             {
                 question: "When was the first constitution of Pakistan passed?",
                 options: ["1956", "1962", "1973", "1949"],
                 correctAnswer: "1956",
+                explanation: "Pakistan's first constitution was enacted in 1956, making the country an Islamic republic."
+
             },
             {
                 question: "Who was the first Prime Minister of Pakistan?",
                 options: ["Zulfikar Ali Bhutto", "Benazir Bhutto", "Liaquat Ali Khan", "Imran Khan"],
                 correctAnswer: "Liaquat Ali Khan",
+                explanation: "Liaquat Ali Khan was Pakistan's first Prime Minister after independence."
+
             },
             {
                 question: "Which city is known as the cultural capital of Pakistan?",
                 options: ["Lahore", "Karachi", "Islamabad", "Multan"],
                 correctAnswer: "Lahore",
+                explanation: "Lahore is known as the cultural heart of Pakistan due to its rich history and vibrant traditions."
+
             },
             {
                 question: "When was the Lahore Resolution passed?",
                 options: ["23rd March 1940", "14th August 1947", "11th September 1948", "26th January 1950"],
                 correctAnswer: "23rd March 1940",
+                explanation: "The Lahore Resolution, demanding a separate nation for Muslims, was passed on 23rd March 1940."
+
             },
             {
                 question: "Who was the first President of Pakistan?",
                 options: ["Iskander Mirza", "Ayub Khan", "Yahya Khan", "Zia-ul-Haq"],
                 correctAnswer: "Iskander Mirza",
+                explanation: "Iskander Mirza became the first President of Pakistan in 1956."
+
             },
             {
                 question: "Which war was fought between India and Pakistan in 1965?",
                 options: ["Kargil War", "First Kashmir War", "Indo-Pak War", "Bangladesh Liberation War"],
                 correctAnswer: "Indo-Pak War",
+                explanation: "The Indo-Pak War of 1965 was fought primarily over the Kashmir region."
+
             },
             {
                 question: "Which province of Pakistan is the largest by area?",
                 options: ["Punjab", "Sindh", "Khyber Pakhtunkhwa", "Balochistan"],
                 correctAnswer: "Balochistan",
+                explanation: "Balochistan is the largest province of Pakistan in terms of land area."
+
+
             }
         ];
 
